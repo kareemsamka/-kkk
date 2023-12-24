@@ -1,8 +1,8 @@
 #include <iostream>
 
 
-int addThreeNumbers(int a, int b, int c) {
-    int sum = a + b + c;
+int addThreeNumbers(int a, int b, ) {
+    int sum = a + b ;
 
 
     return sum;
@@ -10,7 +10,7 @@ int addThreeNumbers(int a, int b, int c) {
 
 int main() {
 
-    int num1, num2, num3;
+    int num1, num2, ;
 
     int num1, num2;
 
@@ -22,8 +22,7 @@ int main() {
     std::cout << "أدخل الرقم الثاني: ";
     std::cin >> num2;
 
-    std::cout << "أدخل الرقم الثالث: ";
-    std::cin >> num3;
+   
 
     int result = addThreeNumbers(num1, num2, num3);
 
